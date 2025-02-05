@@ -1,4 +1,4 @@
-﻿using StructuralBridge;
+﻿using RR.DesignPattern.Structural.Bridge;
 
 var mustang = new Mustang(new EngineV8());
 var maverick = new Maverick(new EngineV6());
@@ -14,7 +14,7 @@ tracker.Start();
 tracker.Drive();
 tracker.Stop();
 
-namespace StructuralBridge
+namespace RR.DesignPattern.Structural.Bridge
 {
     abstract class Vehicle(IEngine engine)
     {

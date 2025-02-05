@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalFactory", "CreationalFactory\CreationalFactory.csproj", "{427B13F3-8FF7-4CA6-B3DD-3441719DB560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Creational.Factory", "CreationalFactory\RR.DesignPattern.Creational.Factory.csproj", "{427B13F3-8FF7-4CA6-B3DD-3441719DB560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalSingleton", "CreationalSingleton\CreationalSingleton.csproj", "{5C09329F-D643-4286-A171-F82114466947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Creational.Singleton", "CreationalSingleton\RR.DesignPattern.Creational.Singleton.csproj", "{5C09329F-D643-4286-A171-F82114466947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalAbstractFactory", "CreationalAbstractFactory\CreationalAbstractFactory.csproj", "{360D22C4-4EB8-451B-9F85-360D58B081D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Creational.AbstractFactory", "CreationalAbstractFactory\RR.DesignPattern.Creational.AbstractFactory.csproj", "{360D22C4-4EB8-451B-9F85-360D58B081D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalBuilder", "CreationalBuilder\CreationalBuilder.csproj", "{6C62200B-A9F7-4FFA-9E22-E9C0997476D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Creational.Builder", "CreationalBuilder\RR.DesignPattern.Creational.Builder.csproj", "{6C62200B-A9F7-4FFA-9E22-E9C0997476D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPrototype", "CreationalPrototype\CreationalPrototype.csproj", "{18AA7124-9A83-4124-99A1-919BBFA81AE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Creational.Prototype", "CreationalPrototype\RR.DesignPattern.Creational.Prototype.csproj", "{18AA7124-9A83-4124-99A1-919BBFA81AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralAdapter", "StructuralAdapter\StructuralAdapter.csproj", "{8068ACC9-FB84-414C-AAC6-82F3F323278D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Structural.Adapter", "StructuralAdapter\RR.DesignPattern.Structural.Adapter.csproj", "{8068ACC9-FB84-414C-AAC6-82F3F323278D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralBridge", "StructuralBridge\StructuralBridge.csproj", "{8DC839B6-8F57-4A3A-829C-185FF2DF9C6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Structural.Bridge", "StructuralBridge\RR.DesignPattern.Structural.Bridge.csproj", "{8DC839B6-8F57-4A3A-829C-185FF2DF9C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DesignPattern.Structural.Composite", "StructuralComposite\RR.DesignPattern.Structural.Composite.csproj", "{DEA687D5-E603-4BB2-A47F-D379EA222CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8DC839B6-8F57-4A3A-829C-185FF2DF9C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC839B6-8F57-4A3A-829C-185FF2DF9C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC839B6-8F57-4A3A-829C-185FF2DF9C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA687D5-E603-4BB2-A47F-D379EA222CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA687D5-E603-4BB2-A47F-D379EA222CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA687D5-E603-4BB2-A47F-D379EA222CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA687D5-E603-4BB2-A47F-D379EA222CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

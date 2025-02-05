@@ -1,4 +1,4 @@
-﻿namespace CreationalPrototype;
+﻿namespace RR.DesignPattern.Creational.Prototype;
 
 public interface IGraphicElement
 {

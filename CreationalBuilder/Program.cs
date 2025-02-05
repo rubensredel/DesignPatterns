@@ -1,4 +1,4 @@
-﻿namespace CreationalBuilder;
+﻿namespace RR.DesignPattern.Creational.Builder;
 
 interface IPizza
 {

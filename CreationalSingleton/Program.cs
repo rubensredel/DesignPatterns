@@ -1,4 +1,4 @@
-﻿namespace CreationalSingleton;
+﻿namespace RR.DesignPattern.Creational.Singleton;
 
 public class Logger
 {

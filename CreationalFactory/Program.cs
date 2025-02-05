@@ -1,4 +1,4 @@
-﻿namespace CreationalFactory;
+﻿namespace RR.DesignPattern.Creational.Factory;
 
 public enum VehicleType
 {

@@ -1,4 +1,4 @@
-﻿using StructuralAdapter;
+﻿using RR.DesignPattern.Structural.Adapter;
 
 Console.WriteLine("Payment Gateway");
 Console.WriteLine("Value of the payment: ");
@@ -23,7 +23,7 @@ IPaymentGateway payment = int.Parse(typePayment) switch
 
 payment.ProcessPayment("RESTAURANTE BOB ESPONJA", Decimal.Parse(value), "01.001.001/0001-01");
 
-namespace StructuralAdapter
+namespace RR.DesignPattern.Structural.Adapter
 {
     public class PaymentGatewayMercadoPago
     {
